@@ -19,3 +19,7 @@ SELECT * WHERE {
 LIMIT 50
 ```
 
+# Grade of Relics
+
+Cultural relic collections are divided into precious cultural relics and ordinary cultural relics. Precious cultural relics are divided into the first class, the second class and the third class. Typical cultural relics that have especially important historical, artistic and scientific values are first-class cultural relics; those that have important historical, artistic and scientific values are second-class cultural relics; and those that have relatively important historical, artistic and scientific values are third-class cultural relics. Cultural relics that have certain historical, artistic and scientific values are ordinary cultural relics.
+
