@@ -2,3 +2,10 @@
 http://localhost:10214/resource/:ProjectDashboard  
 http://localhost:10214/resource/Start  
 ```[[> rsp:ProjectDashboard]]  ```  
+
+
+
+```<http://localhost/hm/graph> {
+<uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <uri> . 
+}
+```
