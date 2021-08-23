@@ -12,8 +12,10 @@ http://localhost:10214/resource/Start
 
 # run a search 
 
-```SELECT * WHERE {
+```
+SELECT * WHERE {
   <http://www.cogim.online/id/object/61121> ?pred ?obj .
 } 
-LIMIT 50```
+LIMIT 50
+```
 
