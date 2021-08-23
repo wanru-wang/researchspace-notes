@@ -14,7 +14,7 @@ http://localhost:10214/resource/Start
 
 ```
 SELECT * WHERE {
-  <http://www.cogim.online/id/object/61121> ?pred ?obj .
+  <uri> ?pred ?obj .
 } 
 LIMIT 50
 ```
