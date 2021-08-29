@@ -23,3 +23,13 @@ LIMIT 50
 
 Cultural relic collections are divided into precious cultural relics and ordinary cultural relics. Precious cultural relics are divided into the first class, the second class and the third class. Typical cultural relics that have especially important historical, artistic and scientific values are first-class cultural relics; those that have important historical, artistic and scientific values are second-class cultural relics; and those that have relatively important historical, artistic and scientific values are third-class cultural relics. Cultural relics that have certain historical, artistic and scientific values are ordinary cultural relics.
 
+
+# change of IIIF server
+https://github.com/researchspace/researchspace/commit/e14d0ebb1c58fe93e722a9ff983614da47f4f8cf
+
+old  server : iiif-server-url='/proxy/IIIF'
+new server:  iiif-server-url='/proxy/iiif-server/iiif/1' '/proxy/iiif-server/iiif/2'
+
+- itemcard media
+- ResourceContent.html
+
