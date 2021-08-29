@@ -37,3 +37,17 @@ new server:  iiif-server-url='/proxy/iiif-server/iiif/1' '/proxy/iiif-server/iii
 # change of search and KG. 
 KnowledgeMapOntodiaConfig
 http://localhost:10214/resource/rsp:SearchContent
+
+# search on osm
+
+
+PREFIX osm: <http://www.researchspace.org/resource/system/services/osm/>
+
+SELECT * WHERE {
+  ?subject osm:q "Venice" ;
+    osm:display_name ?display_name ;
+    osm:geotext ?geo_text ;
+    osm:wikidata ?wikidata ;
+    osm:importance ?score .
+}
+        
