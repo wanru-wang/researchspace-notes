@@ -42,7 +42,7 @@ http://localhost:10214/resource/rsp:SearchContent
 
 
 PREFIX osm: <http://www.researchspace.org/resource/system/services/osm/>
-
+```
 SELECT * WHERE {
   ?subject osm:q "Venice" ;
     osm:display_name ?display_name ;
@@ -51,3 +51,4 @@ SELECT * WHERE {
     osm:importance ?score .
 }
         
+```
