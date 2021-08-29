@@ -33,3 +33,7 @@ new server:  iiif-server-url='/proxy/iiif-server/iiif/1' '/proxy/iiif-server/iii
 - itemcard media
 - ResourceContent.html
 
+
+# change of search and KG. 
+KnowledgeMapOntodiaConfig
+http://localhost:10214/resource/rsp:SearchContent
