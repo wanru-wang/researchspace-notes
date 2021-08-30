@@ -52,3 +52,17 @@ SELECT * WHERE {
 }
         
 ```
+
+
+
+# delete graph 
+
+```
+DELETE { 
+  ?s ?p ?o.
+} WHERE {
+  GRPAH <RelationshipGraph> {
+    ?s ?p ?p.
+  }
+}
+```
