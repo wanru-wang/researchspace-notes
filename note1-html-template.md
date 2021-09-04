@@ -102,3 +102,12 @@ INSERT {
 }
 ```
 
+```
+INSERT { $subject <http://www.w3.org/2000/01/rdf-schema#label> ?value_zh} WHERE {
+  BIND(
+    STRLANG(
+      STR(?value),"zh"
+    ) AS ?value_zh
+    )
+}
+```
