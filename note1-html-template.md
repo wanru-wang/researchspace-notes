@@ -85,6 +85,20 @@ INSERT DATA
 ```
 # 
 # sparql bind and concat
-
+ ```
 BIND(CONCAT("STRING_1",?thing_1,"STRING_2") AS ?what 
 STRLANG($value,"zh")
+```
+```
+
+INSERT { 
+  $subject crm:P02_has_range $visualItem .
+  $visualItem crm:P02i_is_range_of $subject .
+  ?entity crm:P67_refers_to $visualItem .
+  $visualItem crm:P67i_is_referred_to_by ?entity .
+} WHERE {
+  BIND(IRI(STRBEFORE(STR($subject), "/PC67_refers_to/")) AS ?entity).
+  ?value crm:P65_shows_visual_item ?visualItem .
+}
+```
+
