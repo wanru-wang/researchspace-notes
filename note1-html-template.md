@@ -87,3 +87,4 @@ INSERT DATA
 # sparql bind and concat
 
 BIND(CONCAT("STRING_1",?thing_1,"STRING_2") AS ?what 
+STRLANG($value,"zh")
