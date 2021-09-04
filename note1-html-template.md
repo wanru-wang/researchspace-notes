@@ -77,3 +77,10 @@ INSERT DATA
 }
 
 ```
+# url of sepcial resource
+
+```
+/resource/feiquan3d
+/assets/Duyou3d.mp4
+```
+# 
