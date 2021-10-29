@@ -111,3 +111,6 @@ INSERT { $subject <http://www.w3.org/2000/01/rdf-schema#label> ?value_zh} WHERE 
     )
 }
 ```
+
+
+https://  . . /rest/template/pageHtml?iri=http%3A%2F%2Fwww.researchspace.org%2Fresource%2Fsystem%2Fforms%2Fevent_proposition&preferredLanguage=en
